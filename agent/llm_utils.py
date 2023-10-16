@@ -119,6 +119,6 @@ def choose_agent(task: str) -> dict:
     except Exception as e:
         print(f"{Fore.RED}Error in choose_agent: {e}{Style.RESET_ALL}")
         return {"agent": "Default Agent",
-                "agent_role_prompt": "You are an AI critical thinker research assistant. Your sole purpose is to write well written, critically acclaimed, objective and structured reports on given text."}
+                "agent_role_prompt": "You're an AI research assistant in critical thinking. Your main task is to create objective, well-structured reports based on the provided text."}
 
 
